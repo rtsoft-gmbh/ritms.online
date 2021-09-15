@@ -288,7 +288,7 @@
     grid-template-columns: 100%;
   }
 }.u-section-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('http://up2date.rtsoft.ru/images/image-2-0.jpg');
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('img/contact-bg-2.png');
   background-position: 50% 50%;
 }
 
