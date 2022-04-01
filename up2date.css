@@ -18,7 +18,6 @@
 .u-section-1 .u-group-1 {
   width: 491px;
   min-height: 405px;
-  height: auto;
   margin: 0 auto;
 }
 
@@ -117,7 +116,6 @@
 
   .u-section-1 .u-group-1 {
     width: 410px;
-    height: auto;
   }
 
   .u-section-1 .u-text-1 {
@@ -255,11 +253,6 @@
 }
 
 .u-section-2 .u-list-item-1 {
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 180deg;
-  --animation-custom_in-scale: 1;
   background-image: none;
 }
 
@@ -344,37 +337,6 @@
   margin: 21px 0 0 80px;
 }
 
-.u-section-2 .u-list-item-4 {
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 180deg;
-  --animation-custom_in-scale: 1;
-  background-image: none;
-}
-
-.u-section-2 .u-container-layout-4 {
-  padding: 28px 30px;
-}
-
-.u-section-2 .u-icon-4 {
-  width: 50px;
-  height: 50px;
-  background-image: none;
-  margin: 0 auto 0 0;
-  padding: 0;
-}
-
-.u-section-2 .u-text-8 {
-  font-size: 1.875rem;
-  font-weight: 700;
-  margin: -50px 0 0 80px;
-}
-
-.u-section-2 .u-text-9 {
-  margin: 21px 0 0 80px;
-}
-
 @media (max-width: 1199px) {
   .u-section-2 .u-list-1 {
     width: 940px;
@@ -382,6 +344,14 @@
 
   .u-section-2 .u-repeater-1 {
     min-height: 367px;
+  }
+
+  .u-section-2 .u-list-item-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 180deg;
+    --animation-custom_in-scale: 1;
   }
 
   .u-section-2 .u-text-2 {
@@ -410,16 +380,6 @@
   }
 
   .u-section-2 .u-text-7 {
-    width: auto;
-    margin-left: 83px;
-  }
-
-  .u-section-2 .u-text-8 {
-    width: auto;
-    margin-left: 83px;
-  }
-
-  .u-section-2 .u-text-9 {
     width: auto;
     margin-left: 83px;
   }
@@ -462,17 +422,6 @@
     margin-right: auto;
     margin-left: 0;
   }
-
-  .u-section-2 .u-text-8 {
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: 0;
-  }
-
-  .u-section-2 .u-text-9 {
-    margin-right: auto;
-    margin-left: 0;
-  }
 }
 
 @media (max-width: 767px) {
@@ -495,11 +444,6 @@
   }
 
   .u-section-2 .u-container-layout-3 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-2 .u-container-layout-4 {
     padding-left: 10px;
     padding-right: 10px;
   }
